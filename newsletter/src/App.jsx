@@ -13,7 +13,7 @@ function App() {
           <h1>título</h1>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et qui nostrum veniam harum praesentium perspiciatis ipsum eaque at? Voluptas eaque cum magnam ratione esse. Iste labore alias officiis assumenda quisquam!
+            Mantenha-se atualizado! Junte-se a mais de 60.000 gerentes de produto que recebem atualizações mensais sobre: ​​Descoberta de produtos e desenvolvimento do que importa. Mensuração para garantir o sucesso das atualizações. E muito mais!
           </p>
           
           <ul>
