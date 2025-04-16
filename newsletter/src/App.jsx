@@ -10,21 +10,21 @@ function App() {
         <img src={IlustrationMobile} alt="ilustração de gráficos" />
 
         <section className='text-content'>
-          <h1>título</h1>
+          <h1>Mantenha-se atualizado!</h1>
 
           <p>
-            Mantenha-se atualizado! Junte-se a mais de 60.000 gerentes de produto que recebem atualizações mensais sobre: ​​Descoberta de produtos e desenvolvimento do que importa. Mensuração para garantir o sucesso das atualizações. E muito mais!
+            Junte-se a mais de 60.000 gerentes de produto que recebem atualizações mensais sobre:
           </p>
           
           <ul>
             <li>
-              item 1              
+              Descoberta de produtos e desenvolvimento do que importa              
             </li>
             <li>
-              item 2
+              Mensuração para garantir o sucesso das atualizações
             </li>
             <li>
-              item 3
+              E muito mais!
             </li>
           </ul>
         </section>
