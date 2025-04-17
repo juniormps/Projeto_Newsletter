@@ -8,7 +8,7 @@ const NewsletterForm = () => {
   }
 
   return (
-    <div>
+    <>
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="email">Endereço de e-mail</label>
@@ -20,7 +20,7 @@ const NewsletterForm = () => {
           </div>
           
         </form>
-    </div>
+    </>
   )
 }
 
