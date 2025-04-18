@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './NewsletterForm.css'
 
-const NewsletterForm = () => {
+const NewsletterForm = ({success}) => {
   const [email, setEmail] = useState("")
   const [error, setError] = useState("")
 
@@ -32,6 +32,7 @@ const NewsletterForm = () => {
     //limpar campo do formulário e o erro (caso haja) após o envio.
     setError("")
     setEmail("")
+    success(true)
   }
 
   return (
