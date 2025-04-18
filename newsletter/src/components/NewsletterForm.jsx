@@ -2,9 +2,19 @@ import { useState } from 'react'
 import './NewsletterForm.css'
 
 const NewsletterForm = () => {
+  const [email, setEmail] = useState("")
 
-  const handleSubmit = () => {
+  const handleEmail = (e) => setEmail(e.target.value)
 
+  console.log(email)
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+
+    console.log("Enviando formulário...")
+    console.log(`E-mail cadastrado: ${email}`)
+
+    //limpar campo do formulário após o envio
   }
 
   return (
@@ -12,7 +22,7 @@ const NewsletterForm = () => {
         <form onSubmit={handleSubmit}>
           <div>
             <label htmlFor="email">Endereço de e-mail</label>
-            <input type="email" name='email' placeholder='email@company.com'/>
+            <input type="email" name='email' placeholder='email@company.com' onChange={handleEmail} />
           </div>
 
           <div>
