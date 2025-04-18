@@ -4,39 +4,40 @@ form {
     align-items: center;
     gap: 0.8rem;
 
-    border: 1px solid red;
+    
 }
 
  form div {
     width: 90%;
 
-    /*border: 1px solid red;*/ 
 }
 
 form label {
     display: block;
     font-size: 0.7rem;
     font-weight: 700;
-    margin-bottom: 0.2rem;
+    /*margin-bottom: 0.2rem;*/
 }
 
-form input[type="email"] {
+/*Configura a caixa input de e-mail*/
+.input-email {
     width: 100%;
-    height: 2.5rem;
+    height: 3.3rem;
     border: 1px solid hsl(0, 0%, 58%);
     border-radius: 0.3rem;
     font-size: 0.9rem;
     padding: 1rem;
 }
 
-form input[type="email"]:focus {
+.input-email:focus {
     border-color: hsl(234, 29%, 20%);
     box-shadow: 0 0 0 2px  hsla(234, 29%, 20%, 0.2);
 }
 
+/*Configura o input de submeter*/
 form input[type="submit"] {
     width: 100%;
-    height: 2.5rem;
+    height: 3.3rem;
     background-color: hsl(234, 29%, 20%);
     border: 1px solid hsl(234, 29%, 20%);
     border-radius: 0.3rem;
@@ -50,4 +51,42 @@ form input[type="submit"]:hover {
     background-color: hsl(235, 18%, 26%);
     transform: translate(1px, -1px);
 }
+
+/*Configura a div que contém o label e a mensagem de errro*/
+.label-error-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.2rem;
+}
+
+/*Configura a mensagem de erro*/
+.error-message {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: hsl(4, 100%, 67%);
+}
+
+/*Configura a caixa input de e-mail em caso de erro*/
+.error-config {
+    width: 100%;
+    height: 3.3rem;
+    background-color: hsl(4, 100%, 95%);
+    border: 2px solid hsl(4, 100%, 67%);
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    color: hsl(4, 100%, 67%);
+    padding: 1rem;
+}
+
+.error-config:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px hsla(4, 100%, 67%, 0.3);
+  }
+
+.input-email, .error-config {
+  transition: all 0.2s ease-in-out;
+}
+
 
