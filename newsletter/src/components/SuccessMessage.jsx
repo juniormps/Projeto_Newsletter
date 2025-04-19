@@ -1,5 +1,6 @@
 import './SuccessMessage.css'
 import IconSuccess from '../assets/images/icon-success.svg'
+import ButtonEnd from './ButtonEnd'
 
 const SuccessMessage = ({address}) => {
   return (
@@ -15,6 +16,8 @@ const SuccessMessage = ({address}) => {
                 </p>
           
             </section>
+
+            <ButtonEnd />
             
         </main>
     </>
