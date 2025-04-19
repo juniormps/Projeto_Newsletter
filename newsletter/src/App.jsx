@@ -6,14 +6,16 @@ import SuccessMessage from './components/SuccessMessage'
 function App() {
 
   const [confirmedSubscribing, setConfirmedSubscribing] = useState(false)
+  const [email, setEmail] = useState("")
 
-  const success = () => {
+  const success = (email) => {
     setConfirmedSubscribing(true)
+    setEmail(email)
   }
 
   return (
     <>
-      {confirmedSubscribing ? <SuccessMessage /> : <NewsletterBody success={success} />}
+      {confirmedSubscribing ? <SuccessMessage address={email} /> : <NewsletterBody success={success} />}
     </>
   )
 }
