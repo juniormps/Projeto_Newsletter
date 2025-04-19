@@ -1,0 +1,33 @@
+.confirmation-container {
+    max-width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.confirmation-container img {
+    width: 65px;
+    height: 65px;
+    margin-top: 12px;
+    margin-left: 20px;
+
+    border: 1px solid red;
+}
+
+.confirmation-container h1 {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin-top: 1rem;
+    padding-left: 1.3rem;
+}
+
+.confirmation-container p {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1.3rem;
+    padding-left: 1.3rem;
+}
