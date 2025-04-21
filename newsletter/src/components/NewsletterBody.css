@@ -1,3 +1,5 @@
+/* === CONFIGURAÇÕES PARA MOBILE === */
+
 .newsletter-container {
     max-width: 375px;
     height: 100%;
@@ -9,7 +11,7 @@
     background-color: hsl(0, 0%, 100%);
 }
 
-/* Imagem no topo (mobile) */
+/* Imagem no topo */
 .newsletter-container img {
     width: 100%;
     height: auto;
@@ -54,4 +56,8 @@
 
 }
 
+/* === MEDIA QUERY PARA DESKTOP === */
 
+@medi
+    
+}
