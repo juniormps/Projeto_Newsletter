@@ -17,12 +17,15 @@ const NewsletterBody = ({success}) => {
           
             <ul>
               <li>
+                <span className='icon-list'></span>
                 Descoberta de produtos e desenvolvimento do que importa
               </li>
               <li>
+                <span className='icon-list'></span>
                 Mensuração para garantir o sucesso das atualizações
               </li>
               <li>
+                <span className='icon-list'></span>
                 E muito mais!
               </li>
             </ul>

@@ -35,3 +35,13 @@
 .email-confirmed {
     font-weight: 700;
 }
+
+/* === MEDIA QUERY PARA DESKTOP === */
+
+@media (min-width: 768px) {
+    .confirmation-container {
+        max-width: 500px;
+        height: 500px;
+        border-radius: 3rem;
+    }
+}
