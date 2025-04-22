@@ -3,7 +3,7 @@ import './ButtonEnd.css'
 const ButtonEnd = () => {
 
     const handleClick = () => {
-        window.location.href = '/Projeto_Newsletter/'
+        window.location.href = 'https://juniormps.github.io/Projeto_Newsletter/'
     }
 
   return (
