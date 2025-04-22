@@ -1,9 +1,10 @@
 import './ButtonEnd.css'
+import { defineConfig } from 'vite'
 
 const ButtonEnd = () => {
 
     const handleClick = () => {
-        window.location.href = `${process.env.PUBLIC_URL}/`
+        window.location.href = defineConfig.base
     }
 
   return (
