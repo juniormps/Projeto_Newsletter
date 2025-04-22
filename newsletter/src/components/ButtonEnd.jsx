@@ -3,7 +3,7 @@ import './ButtonEnd.css'
 const ButtonEnd = () => {
 
     const handleClick = () => {
-        window.location.href = import.meta.env.BASE_URL
+        window.location.href = '/Projeto_Newsletter/'
     }
 
   return (
