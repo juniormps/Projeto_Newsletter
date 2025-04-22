@@ -18,3 +18,11 @@
     background-color: hsl(235, 18%, 26%);
     transform: translate(1px, -1px);
 }
+
+/* === MEDIA QUERY PARA DESKTOP === */
+
+@media (min-width: 768px) {
+    .end-button {
+        margin-top: 25px;
+    }
+}

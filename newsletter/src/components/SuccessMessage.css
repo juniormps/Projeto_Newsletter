@@ -9,11 +9,14 @@
     background-color: hsl(0, 0%, 100%);
 }
 
-.confirmation-container img {
-    width: 65px;
-    height: 65px;
-    margin-top: 12px;
-    margin-left: 20px;
+.icon-container {
+    width: 70px;
+    height: 70px;
+    margin-top: 1.3rem;
+    margin-left: 1.2rem;
+    background-image: url('../assets/images/icon-success.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
 
     border: 1px solid red;
 }
@@ -40,8 +43,28 @@
 
 @media (min-width: 768px) {
     .confirmation-container {
-        max-width: 500px;
-        height: 500px;
+        max-width: 550px;
+        height: 550px;
         border-radius: 3rem;
+    }
+
+    .icon-container {
+        margin-top: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .confirmation-container h1 {
+        font-size: 3.5rem;
+        line-height: 3.6rem;
+        padding-left: 2.5rem;
+
+        border: 1px solid red;
+    }
+
+    .confirmation-container p {
+        padding-left: 2.5rem;
+        padding-right: 6rem;
+
+        border: 1px solid red;
     }
 }
