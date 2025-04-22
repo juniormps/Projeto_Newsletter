@@ -1,7 +1,12 @@
-import { useState } from 'react'
 import './App.css'
 import NewsletterBody from './components/NewsletterBody'
 import SuccessMessage from './components/SuccessMessage'
+import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import HomePage from './HomePage'
+import SomePage from './SomePage'
+import ButtonEnd from './ButtonEnd'
+
 
 function App() {
 
@@ -15,6 +20,13 @@ function App() {
 
   return (
     <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/some-page" element={<SomePage />} />
+          <Route path="/end" element={<ButtonEnd />} />
+        </Routes>
+      </BrowserRouter>
       {confirmedSubscribing ? <SuccessMessage address={email} /> : <NewsletterBody success={success} />}
     </>
   )

@@ -1,10 +1,14 @@
 import './ButtonEnd.css'
+import { useNavigate } from 'react-router-dom'
+
 
 const ButtonEnd = () => {
 
-    const handleClick = () => {
-        window.location.href = 'https://juniormps.github.io/Projeto_Newsletter/'
-    }
+  const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate('/')
+  }
 
   return (
     <>
