@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 const ButtonEnd = () => {
 
-    const handleClick = () => {
+    const handleClick = (defineConfig) => {
         window.location.href = defineConfig.base
     }
 
