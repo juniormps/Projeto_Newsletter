@@ -74,8 +74,8 @@
     .newsletter-container {
         max-width: 930px;
         height: 650px;
-        margin: 0 auto;
-        margin-top: 20px; /*Alterar*/
+        /*margin: 0 auto;*/
+        /*margin-top: 20px;*/ /*Alterar*/
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;

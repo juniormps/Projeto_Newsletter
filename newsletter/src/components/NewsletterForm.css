@@ -45,11 +45,12 @@ form input[type="submit"] {
     font-size: 0.9rem;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 form input[type="submit"]:hover {
-    background-color: hsl(235, 18%, 26%);
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
     transform: translate(1px, -1px);
 }
 
