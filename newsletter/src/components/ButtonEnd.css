@@ -23,6 +23,8 @@
 
 @media (min-width: 768px) {
     .end-button {
-        margin-top: 25px;
+        width: 80%;
+        height: 4rem;
+        margin-top: 15px;
     }
 }
