@@ -10,16 +10,17 @@
     font-weight: 600;
     color: hsl(0, 0%, 100%);
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
     outline: none;
 }
 
 .end-button:hover {
-    background-color: hsl(235, 18%, 26%);
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
     transform: translate(1px, -1px);
 }
 
-/* === MEDIA QUERY PARA DESKTOP === */
+/* === MEDIA QUERY PARA TABLET E DESKTOP === */
 
 @media (min-width: 768px) {
     .end-button {
