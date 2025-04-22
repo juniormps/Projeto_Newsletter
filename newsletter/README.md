@@ -1,6 +1,6 @@
 # 📬 Newsletter App
 
-Uma aplicação moderna de assinatura de newsletter, com validação de e-mail, mensagens de erro acessíveis e layout responsivo. Desenvolvida em React com Vite.
+Uma aplicação moderna de assinatura de newsletter, com validação de e-mail, mensagens de erro acessíveis e layout responsivo. Desenvolvida em React com Vite. O projeto é um desafio do site Frontend Mentor (https://www.frontendmentor.io/).
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white&style=for-the-badge)
 ![Vite](https://img.shields.io/badge/Vite-5.2.0-646CFF?logo=vite&logoColor=white&style=for-the-badge)
