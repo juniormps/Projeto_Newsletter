@@ -25,16 +25,12 @@
     font-weight: 700;
     margin-bottom: 1rem;
     padding-left: 1rem;
-    
-    /*border: 1px solid red;*/
 }
 
 .text-content p {
     font-size: 0.9rem;
     margin-bottom: 1rem;
     padding-left: 1rem;
-
-    /*border: 1px solid red;*/
 }
 
 /*Lista*/
@@ -45,8 +41,6 @@
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
-
-    /*border: 1px solid red;*/
 }
 
 .icon-list {
@@ -55,8 +49,6 @@
     height: 25px;
     background-image: url('../assets/images/icon-list.svg');
     background-repeat: no-repeat;
-
-    /*border: 1px solid green;*/
 }
 
 .text-content li {
@@ -64,8 +56,6 @@
     display: flex;
     align-items: center;
     gap: 1rem;
-
-    /*border: 1px solid red;*/
 }
 
 /* === MEDIA QUERY PARA DESKTOP === */
@@ -74,8 +64,6 @@
     .newsletter-container {
         max-width: 930px;
         height: 650px;
-        /*margin: 0 auto;*/
-        /*margin-top: 20px;*/ /*Alterar*/
         display: flex;
         flex-direction: row-reverse;
         justify-content: center;
@@ -92,14 +80,10 @@
         background-image: url('../assets/images/illustration-sign-up-desktop.svg');
         background-repeat: no-repeat;
         background-position: right center;
-
-       /*border: 1px solid red;*/
     }
 
     .content-container {
         width: 45%;
-
-        /*border: 1px solid red;*/
     }
 
     /* Bloco de texto */
@@ -108,8 +92,7 @@
         line-height: 2.8rem;
 
     }
-
-
+    
     .text-content li {
         padding: 0 0 0 1rem;
     }

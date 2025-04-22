@@ -17,8 +17,6 @@
     background-image: url('../assets/images/icon-success.svg');
     background-repeat: no-repeat;
     background-position: center center;
-
-    /*border: 1px solid red;*/
 }
 
 .confirmation-container h1 {
@@ -58,14 +56,10 @@
         line-height: 3.6rem;
         padding-left: 3.5rem;
         margin-top: 0.75rem;
-
-        /*border: 1px solid red;*/
     }
 
     .confirmation-container p {
         padding-left: 3.5rem;
         padding-right: 6rem;
-
-        /*border: 1px solid red;*/
     }
 }

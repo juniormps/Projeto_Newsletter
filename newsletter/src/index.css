@@ -39,7 +39,6 @@ body {
 /* Remove estilos padrões de inputs e botões */
 input, button {
     font: inherit;
-    /*border: none;*/
     outline: none;
 
 }

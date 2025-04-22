@@ -27,9 +27,6 @@ const NewsletterForm = ({success}) => {
       return
     }
 
-    console.log("Enviando formulário...")
-    console.log(`E-mail cadastrado: ${email}`)
-
     //limpar campo do formulário e o erro (caso haja) após o envio.
     setError("")
     setEmail("")
@@ -38,32 +35,32 @@ const NewsletterForm = ({success}) => {
 
   return (
     <>
-        <form onSubmit={handleSubmit}>
-          <div>
-            <div className='label-error-wrapper'>
-              <label htmlFor="email">Endereço de e-mail</label>
-              {/*Adiciona mensagem de erro em caso de e-mail invalido ou vazio*/}
-              {error && <span id='email-error' className="error-message" role='alert'>{error}</span>}
-            </div>
-
-            <input 
-              type="text" 
-              name='email' 
-              placeholder='email@company.com' 
-              value={email} 
-              onChange={handleEmail} 
-              aria-invalid={!!error} 
-              aria-describedby={error ? "email-error" : undefined}
-              className={error ? "error-config" : "input-email"} 
-            />
-            
+      <form onSubmit={handleSubmit}>
+        <div>
+          <div className='label-error-wrapper'>
+            <label htmlFor="email">Endereço de e-mail</label>
+            {/*Adiciona mensagem de erro em caso de e-mail invalido ou vazio*/}
+            {error && <span id='email-error' className="error-message" role='alert'>{error}</span>}
           </div>
 
-          <div>
-            <input type="submit" value="Assine a newsletter mensal" />
-          </div>
+          <input 
+            type="text" 
+            name='email' 
+            placeholder='email@company.com' 
+            value={email} 
+            onChange={handleEmail} 
+            aria-invalid={!!error} 
+            aria-describedby={error ? "email-error" : undefined}
+            className={error ? "error-config" : "input-email"} 
+          />
           
-        </form>
+        </div>
+
+        <div>
+          <input type="submit" value="Assine a newsletter mensal" />
+        </div>
+        
+      </form>
     </>
   )
 }

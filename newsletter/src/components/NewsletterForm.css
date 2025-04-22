@@ -4,8 +4,6 @@ form {
     align-items: center;
     gap: 0.8rem;
     margin-bottom: 2.5rem;
-
-    /*border: 1px solid red;*/
 }
 
  form div {
@@ -17,7 +15,6 @@ form label {
     display: block;
     font-size: 0.7rem;
     font-weight: 700;
-    /*margin-bottom: 0.2rem;*/
 }
 
 /*Configura a caixa input de e-mail*/
