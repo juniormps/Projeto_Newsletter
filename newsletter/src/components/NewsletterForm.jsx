@@ -1,10 +1,11 @@
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import './NewsletterForm.css'
-import SuccessMessage from './SuccessMessage'
 
 const NewsletterForm = ({success}) => {
   const [email, setEmail] = useState("")
   const [error, setError] = useState("")
+  const navigate = useNavigate()
 
   //atualiza o estado com o valor digitado
   const handleEmail = (e) => {
@@ -31,6 +32,7 @@ const NewsletterForm = ({success}) => {
     setError("")
     setEmail("")
     success(email)
+    navigate("/success", { state: { email }})
   }
 
   return (
