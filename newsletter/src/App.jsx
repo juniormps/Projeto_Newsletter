@@ -8,11 +8,9 @@ import SuccessPage from './pages/SuccessPage'
 
 function App() {
 
-  //const [confirmedSubscribing, setConfirmedSubscribing] = useState(false)
   const [email, setEmail] = useState("")
 
   const success = (email) => {
-    //setConfirmedSubscribing(true)
     setEmail(email)
   }
 
